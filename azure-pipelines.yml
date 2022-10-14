@@ -63,7 +63,7 @@ stages:
         containerRegistry: $(containerRegistry)
         repository:  $(imageRepositoryServiceName)
         command: 'buildAndPush'
-        Dockerfile: 'node/Dockerfile'
+        Dockerfile: 'Dockerfile'
         tags: |
           $(Build.SourceBranchName)
           $(tag)
