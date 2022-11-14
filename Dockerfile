@@ -1,5 +1,5 @@
 # build stage
-FROM node:lts-alpine as build-stage
+FROM node:16.13.0 as build-stage
 WORKDIR /app
 COPY package-lock.json ./
 COPY . .
