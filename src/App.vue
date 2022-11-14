@@ -49,7 +49,7 @@
         Open and unlock Keplr, then click the name of the currently selected
         chain at the top
       </li>
-      <img alt="Vue logo" src="./assets/chainname.png" />
+      <img alt="Vue logo" src="https://raw.githubusercontent.com/aureus-trading/blockchain-assets/dev/icons/BTC.svg?token=GHSAT0AAAAAABUUMUOYHTDXSZJAPJL7B5UIY2IVCIQ" />
       <li>
         Scroll to the bottom then click Secure Secrets Pulsar under Beta Support
       </li>
@@ -70,9 +70,9 @@ export default {
     addNetwork() {
       window.keplr.experimentalSuggestChain({
         chainId   : "secretdev-1",
-        chainName : "SecureSecrets Dev",
-        rpc       : "https://rpc.localdocker.securesecrets.org/",
-        rest      : "https://api.localdocker.securesecrets.org/",
+        chainName : "140.82.14.86",
+        rpc       : "http://140.82.14.86:26657/",
+        rest      : "http://140.82.14.86:1317/",
         bip44     : {
           coinType : 529,
         },
